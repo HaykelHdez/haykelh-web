@@ -9,10 +9,7 @@ const links = [
 ];
 
 const social = [
-  { href: "https://instagram.com/haykelh", label: "Instagram" },
-  { href: "https://tiktok.com/@haykelh", label: "TikTok" },
-  { href: "https://youtube.com/@haykelh", label: "YouTube" },
-  { href: "https://linkedin.com/in/haykelh", label: "LinkedIn" },
+  { href: "https://instagram.com/yosoyhaykel", label: "Instagram" },
 ];
 
 export default function Footer() {

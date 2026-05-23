@@ -36,7 +36,7 @@ export default function Navbar() {
         borderBottom: scrolled ? "1px solid #2A2A2A" : "none",
       }}
     >
-      <nav className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+      <nav className="max-w-6xl mx-auto px-6 h-20 flex items-center justify-between">
         {/* Logo */}
         <Link
           href="/"
@@ -117,15 +117,15 @@ export default function Navbar() {
       {/* Mobile menu */}
       {open && (
         <div
-          className="md:hidden px-6 pb-6 pt-2 flex flex-col gap-4"
+          className="md:hidden px-6 pb-8 pt-4 flex flex-col gap-1"
           style={{ background: "rgba(10,10,10,0.98)", borderTop: "1px solid #2A2A2A" }}
         >
           {navLinks.map((link) => (
             <Link
               key={link.href}
               href={link.href}
-              className="text-base font-medium py-2"
-              style={{ color: pathname === link.href ? "#D4AF37" : "#F5F5F0" }}
+              className="text-base font-medium py-3 border-b"
+              style={{ color: pathname === link.href ? "#D4AF37" : "#F5F5F0", borderColor: "#1A1A1A" }}
             >
               {link.label}
             </Link>
