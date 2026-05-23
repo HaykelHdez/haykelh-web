@@ -105,10 +105,7 @@ const personSchema = {
   knowsLanguage: ["es", "en"],
   nationality: { "@type": "Country", name: "Venezuela" },
   sameAs: [
-    "https://instagram.com/haykelh",
-    "https://linkedin.com/in/haykelh",
-    "https://tiktok.com/@haykelh",
-    "https://youtube.com/@haykelh",
+    "https://instagram.com/yosoyhaykel",
   ],
   mainEntityOfPage: {
     "@type": "WebPage",

@@ -22,10 +22,7 @@ const enPersonSchema = {
   knowsAbout: ["Conscious Sales", "Human Development", "Personal Leadership", "Identity", "Entrepreneurship"],
   knowsLanguage: ["es", "en"],
   sameAs: [
-    "https://instagram.com/haykelh",
-    "https://linkedin.com/in/haykelh",
-    "https://tiktok.com/@haykelh",
-    "https://youtube.com/@haykelh",
+    "https://instagram.com/yosoyhaykel",
   ],
 };
 
